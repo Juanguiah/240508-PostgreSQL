@@ -12,7 +12,11 @@ create table pasaporte(
 id SERIAL primary key,
 numero varchar(20) unique,
 id_persona int unique,
---CREAMOS LA RELACIÓN UNO A UNO
+```
+
+CREAMOS LA RELACIÓN UNO A UNO
+
+```
 foreign key (id_persona) references persona(id)
 )
 
