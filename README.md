@@ -41,7 +41,7 @@ inner join persona per on pass.id_persona = per.id
 inner join direcciones dire on per.id_direccion = dire.id
 ```
 
-MUCHOS A MUCHOS
+## MUCHOS A MUCHOS
 
 ```
 create table estudiante (
